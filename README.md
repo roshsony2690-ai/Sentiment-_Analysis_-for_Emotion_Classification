@@ -58,3 +58,16 @@ Two classifiers are trained and compared :
 | **SVM** | **TfidfVectorizer** | **94.02%** | **0.9401** |
 
 ### Best Model Performance (SVM + TfidfVectorizer)
+| Emotion   | Precision | Recall | F1-Score | Support |   
+| --------- | --------- | ------ | -------- | ------- |   
+| **Anger** | 0.94      | 0.92   | 0.93     | 400     |   
+| **Fear**  | 0.94      | 0.93   | 0.94     | 388     |   
+| **Joy**   | 0.94      | 0.96   | 0.95     | 400     |     
+  
+| Overall Metric                | Value |  
+| ----------------------------- | ----- |   
+| **Accuracy**                  | 94%   |   
+| **Macro Average F1-score**    | 0.94  |   
+| **Weighted Average F1-score** | 0.94  |   
+
+
